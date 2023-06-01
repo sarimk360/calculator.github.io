@@ -13,42 +13,42 @@
     <div class="main">
         <form>
             <div class="input-button display">
-                <input class="input" type="text" name="display">
+                <input class="input" id="display" type="text" name="display" value="">
             </div>
             <div class="button-container">
-                <input class="buttons color" type="button" value="AC" onclick="display.value = ''">
-                <input class="buttons color" type="button" value="DE"
-                    onclick="display.value = display.value.toString().slice(0,-1)">
-                <input class="buttons color" type="button" value="." onclick="display.value += '.'">
-                <input class="buttons color" type="button" value="/" onclick="display.value += '/'">
+                <input class="buttons color" type="button" value="AC">
+                <input class="buttons color" type="button" value="DE">
+                <input class="buttons color" type="button" value="%">
+                <input class="buttons color" type="button" value="/">
             </div>
             <div class="button-container">
-                <input class="buttons" type="button" value="7" onclick="display.value += '7'">
-                <input class="buttons" type="button" value="8" onclick="display.value += '8'">
-                <input class="buttons" type="button" value="9" onclick="display.value += '9'">
-                <input class="buttons color" type="button" value="*" onclick="display.value += '*'">
+                <input class="buttons" type="button" value="7">
+                <input class="buttons" type="button" value="8">
+                <input class="buttons" type="button" value="9">
+                <input class="buttons color" type="button" value="*">
             </div>
             <div class="button-container">
-                <input class="buttons" type="button" value="4" onclick="display.value += '4'">
-                <input class="buttons" type="button" value="5" onclick="display.value += '5'">
-                <input class="buttons" type="button" value="6" onclick="display.value += '6'">
-                <input class="buttons color" type="button" value="-" onclick="display.value += '-'">
+                <input class="buttons" type="button" value="4">
+                <input class="buttons" type="button" value="5">
+                <input class="buttons" type="button" value="6">
+                <input class="buttons color" type="button" value="-">
             </div>
             <div class="button-container">
-                <input class="buttons" type="button" value="1" onclick="display.value += '1'">
-                <input class="buttons" type="button" value="2" onclick="display.value += '2'">
-                <input class="buttons" type="button" value="3" onclick="display.value += '3'">
-                <input class="buttons color" type="button" value="+" onclick="display.value += '+'">
+                <input class="buttons" type="button" value="1">
+                <input class="buttons" type="button" value="2">
+                <input class="buttons" type="button" value="3">
+                <input class="buttons color" type="button" value="+">
             </div>
             <div class="button-container">
-                <input class="buttons" type="button" value="00" onclick="display.value += '00'">
-                <input class="buttons" type="button" value="0" onclick="display.value += '0'">
-                <input class="buttons equal color" type="button" value="="
-                    onclick="display.value = eval(display.value)">
+                <input class="buttons" type="button" value="0">
+                <input class="buttons color" type="button" value=".">
+                <input class="buttons equal color" type="button" value="=">
             </div>
         </form>
     </div>
-    <script src="script.js"></script>
+
 </body>
+
+<script src="script.js"></script>
 
 </html>
